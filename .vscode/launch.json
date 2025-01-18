@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "java.project.outputPath": "target",
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "java.home": "C:\\Program Files\\Java\\jdk-17\\bin\\java.exe",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Cucumber Tests",
+      "request": "launch",
+      "mainClass": "runners.TestRunner",
+      "projectName": "Automation",
+      "console": "integratedTerminal",
+      "vmArgs": "--add-opens java.base/java.lang=ALL-UNNAMED",
+      "args": "--plugin pretty"
+    }
+  ]
+}
