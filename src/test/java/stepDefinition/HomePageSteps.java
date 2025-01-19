@@ -57,6 +57,10 @@ public class HomePageSteps {
         }
         @Then("Enter name and email address")
         public void enter_name_and_email_address() {
+            String dataqa=driver.findElement(By.name("name")).getDomAttribute("data-qa");
+            System.out.println("dataqa:  "+ dataqa);
+            String property=driver.findElement(By.name("name")).getDomProperty("name");
+            System.out.println("property:  "+ property);
             WebElement nameField = driver.findElement(By.name("name"));
             WebElement emailField = driver.findElement(By.name("email"));
             nameField.sendKeys("3admin3");

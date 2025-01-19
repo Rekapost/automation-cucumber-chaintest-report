@@ -1,4 +1,5 @@
 stepDefinition\HomePageSteps.class
+Utilities\WebDriverFactory.class
 runners\TestRunner.class
 Utilities\EncryptDecrypt.class
 com\aventstack\chaintest\plugins\ChainTestCucumberListener.class
