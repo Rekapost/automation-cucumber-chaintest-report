@@ -25,3 +25,4 @@ public class TestRunner  {
 // mvn test
 // docker compose -f docker-compose-h2.yml up
 // docker images 
+// http://localhost:8081
